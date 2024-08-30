@@ -1,0 +1,37 @@
+.cart-product-colors {
+  font-weight: bold;
+}
+
+.cart-color-list,
+.cart-size-list {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.cart-color-box {
+  height: 27px;
+  width: 27px;
+  margin: 4px 4px;
+  border: solid #fff 1.3px;
+}
+
+.cart-color-selected {
+  border: solid #fff 1.3px;
+  outline: solid #28231d;
+}
+
+.cart-size-selected {
+  color: #fff;
+  background-color: #28231d;
+  transition: all 0.2s ease-in-out;
+}
+
+.cart-product-usb3-touchID {
+  display: inline-flex;
+  align-items: center;
+}
+
+.cart-product-usb3 img,
+.cart-product-touchID img {
+  width: 40px;
+}

@@ -1,0 +1,33 @@
+.product-sizes {
+  font-weight: bold;
+}
+
+.size-list {
+  display: flex;
+}
+
+.size-box {
+  height: 40px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.size-box {
+  width: 55px;
+  border: #28231d solid 1.5px;
+  text-align: center;
+  align-content: center;
+  user-select: none;
+}
+
+.size-selected {
+  color: #fff;
+  background-color: #28231d;
+  transition: all 0.2s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .size-box {
+    width: 50px;
+  }
+}

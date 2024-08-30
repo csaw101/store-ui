@@ -1,0 +1,78 @@
+.product {
+  display: flex;
+  width: 80vw;
+  margin: 3rem auto;
+  text-align: center;
+}
+
+.product-details {
+  padding: 2rem;
+}
+
+.product-details > div {
+  margin: 1rem;
+}
+
+@media (max-width: 1400px) {
+  .product-details > div {
+    margin: 1rem 0;
+  }
+}
+
+.product-details {
+  flex: 1;
+  text-align: left;
+}
+
+.product-name {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+.product-label {
+  margin: 1rem 0;
+  font-weight: bold;
+}
+
+.product-price {
+  font-weight: bold;
+}
+
+.product-button {
+  background-color: #6cc682;
+  color: #fff;
+  text-align: center;
+  padding: 0.8rem 1rem;
+  font-weight: bold;
+  cursor: pointer;
+  user-select: none;
+}
+
+@media (max-width: 992px) {
+  .product {
+    width: 90vw;
+  }
+}
+
+@media (max-width: 576px) {
+  .product {
+    display: block;
+    width: 90vw;
+  }
+
+  .product-details {
+    padding: 1rem;
+  }
+}
+
+.usb3-availability,
+.touchID-availability {
+  display: inline-flex;
+  align-items: center;
+}
+
+.product-usb3 img,
+.product-touchID img {
+  width: 15%;
+  margin-right: 10px;
+}

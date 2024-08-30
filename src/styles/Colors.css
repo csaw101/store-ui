@@ -1,0 +1,32 @@
+.product-colors {
+  font-weight: bold;
+}
+.color-list {
+  display: flex;
+}
+
+.color-box {
+  height: 40px;
+  margin: 0 4px;
+  cursor: pointer;
+}
+
+.color-box {
+  width: 40px;
+  border: solid #fff 1.3px;
+}
+
+.color-selected {
+  border: solid #fff 1.3px;
+  outline: solid #28231D;
+  transition: all 0.1s ease-in-out;
+}
+
+@media (max-width: 768px) {
+  .color-box {
+    height: 34px;
+    width: 34px;
+  }
+}
+
+

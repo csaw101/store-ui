@@ -1,0 +1,51 @@
+.categories-list ul {
+  list-style: none;
+  font-family: "Raleway";
+  font-weight: 500;
+}
+
+.categories-list ul a {
+  display: inline;
+  padding: 1rem;
+  border-bottom: solid #fff;
+  transition: 0.5s;
+  font-weight: 600;
+  cursor: pointer;
+  color: #28231d;
+  text-decoration: none;
+}
+
+.categories-list ul a:hover {
+  color: #7ad390;
+  border-bottom: solid #7ad390;
+}
+
+.selected-category {
+  color: #7ad390 !important;
+  border-bottom: solid #7ad390 !important;
+}
+
+@media (max-width: 768px) {
+  .categories-list a {
+    padding: 0.5rem;
+  }
+}
+
+.categories-mobile {
+  position: fixed;
+  bottom: 0;
+  background-color: white;
+  width: 100%;
+  text-align: center;
+  padding: 4px 0;
+}
+
+.categories-mobile ul {
+  padding: 0;
+}
+
+@media (min-width: 576px) {
+  .categories-mobile {
+    display: none;
+  }
+}
